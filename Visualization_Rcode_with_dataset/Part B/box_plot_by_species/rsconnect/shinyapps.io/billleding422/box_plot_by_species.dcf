@@ -1,0 +1,12 @@
+name: box_plot_by_species
+title: box_plot_by_species
+username:
+account: billleding422
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1003857
+bundleId: 2186370
+url: https://billleding422.shinyapps.io/box_plot_by_species/
+when: 1561746437.72497
+asMultiple: FALSE
+asStatic: FALSE
