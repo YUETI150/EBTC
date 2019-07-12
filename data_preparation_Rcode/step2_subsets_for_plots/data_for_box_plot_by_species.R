@@ -13,6 +13,8 @@ combine <- dta_meta#create a empty df in advance
 combine <- combine[0,]
 names(dta_meta[9])
 
+
+
 sort_logic <- function(studyID){
   subsets <<- dta_meta[dta_meta[,9] == studyID,]
   if(length(unique(subsets$DailyDose))>1){
