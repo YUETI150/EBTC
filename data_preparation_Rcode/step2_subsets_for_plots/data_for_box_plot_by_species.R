@@ -7,13 +7,12 @@ intact_dta <- read.xlsx("intact_data.xlsx")
 names(intact_dta)
 dta_meta <- intact_dta[,c(1,2,3,4,13,22,23,24,31,25,26,27,28)]
 
+
 #remove the rows which has no compared groups(control), cuz they don't have 
 #function
 combine <- dta_meta#create a empty df in advance
 combine <- combine[0,]
 names(dta_meta[9])
-
-
 
 sort_logic <- function(studyID){
   subsets <<- dta_meta[dta_meta[,9] == studyID,]
